@@ -2,7 +2,7 @@ from selene import browser, have, command, be, by
 
 class GitHubPages:
     def open(self):
-        browser.open('https://github.com')
+        browser.open('')
 
     def set_search_value(self):
         if browser.element(".header-search-input").should(be.visible):
